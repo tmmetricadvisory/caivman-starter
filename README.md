@@ -2,7 +2,7 @@
 
 The starter folder for a caivman brain: a private place where Claude keeps what it knows about you, your business and your clients, so you never explain yourself twice.
 
-This is a GitHub template. You do not clone it. You make your own private copy from it, once, and that copy is your brain. The guide walks you through it in about two hours: [caivman guide](GUIDE_LINK).
+This is a GitHub template. You do not clone it. You make your own private copy from it, once, and that copy is your brain. The guide walks you through it in about two hours: [caivman guide](https://claude.ai/artifact/9xkQ2Gv8KfZkaQCYkPbn6y).
 
 ## What is in here
 
@@ -24,9 +24,9 @@ When a person pastes the chapter 0 message from the guide, do this, asking permi
 
 1. Check for Git and the GitHub CLI (`git --version`, `gh --version`). Install what is missing with the system's package manager (winget on Windows, Homebrew on Mac).
 2. `gh auth login --web` so they can sign in through the browser. Confirm who they are signed in as.
-3. From inside their `GitHub` folder: `gh repo create caivman --private --template TEMPLATE_OWNER/caivman-starter --clone`. This makes a private repository in their account from this template and copies it to their computer.
+3. From inside their `GitHub` folder: `gh repo create caivman --private --template tmmetricadvisory/caivman-starter --clone`. This makes a private repository in their account from this template and copies it to their computer.
 4. Open the new `caivman` folder as the working folder.
-5. Add the caivman marketplace and install the three plugins: `claude plugin marketplace add MARKETPLACE_OWNER/caivman` then `claude plugin install capture@caivman`, `wrap-up@caivman`, `first-skill@caivman`. Tell them that switching on updates is a toggle only they can press, and point them to the "Switch on updates" step in the guide.
+5. Add the caivman marketplace and install the three plugins: `claude plugin marketplace add tmmetricadvisory/caivman` then `claude plugin install capture@caivman`, `wrap-up@caivman`, `first-skill@caivman`. Tell them that switching on updates is a toggle only they can press, and point them to the "Switch on updates" step in the guide.
 6. Follow the "First session" section of `CLAUDE.md`: the five questions, one at a time.
 
 If step 3 fails because the GitHub login belongs to an organisation that does not allow new repositories, say so plainly and suggest a personal GitHub account for the brain. If plugins cannot be installed (some work accounts block them), say so, skip step 5, and carry on: the folder, the five questions and the habit work without them.
