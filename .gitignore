@@ -1,0 +1,22 @@
+# The bench: raw material for capture (your best work, your emails). Stays on this computer.
+bench/*
+!bench/README.md
+
+# Secrets never go in a brain. Keep them in a password manager.
+.env
+.env.*
+*.key
+*.pem
+*token*
+*secret*
+
+# Local Claude state
+.claude/settings.local.json
+
+# Computer clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+__pycache__/
+*.pyc
