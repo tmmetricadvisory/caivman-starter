@@ -35,6 +35,7 @@ Then create the `bench/best-work/` and `bench/voice/` folders if they are missin
 | `memory/` | One dated note per day: what happened, what was decided, what is unfinished | Wrap up |
 | `.claude/skills/` | Your skills, the written method for one job each | The first-skill plugin, then you |
 | `bench/` | Raw material for capture: your best work, your emails. Stays on this computer, never goes to GitHub. | You |
+| `outbox/` | Finished files Claude made: a proposal, a report, the Word file a skill produced. Stays on this computer, never goes to GitHub. Move a file out when you send it. | Claude |
 
 ## Documents stay where they live
 
@@ -43,6 +44,7 @@ This brain holds text: notes, rules, memory, skills. Your proposals, decks, spre
 - When a tool is connected, read documents in place. Then record the folder in `context/sources.md` so the next session knows where to look.
 - When a tool is not connected, the person drops files on the bench. Read them there. The bench is never pushed to GitHub.
 - The exceptions, kept in `context/brand/` because a skill needs them every time: the logo, the fonts, and the Word and PowerPoint templates Claude built.
+- A finished file Claude makes (a proposal, a report, a skill's output) goes to `outbox/` unless the person names a folder. Say where it went. Never save it outside the brain, into `context/`, or into a client folder.
 
 ## The habit
 
@@ -61,7 +63,7 @@ This brain holds text: notes, rules, memory, skills. Your proposals, decks, spre
 
 ## Never
 
-Never write any of these into this folder, even if asked: bank BSB and account numbers, card numbers, passwords, API keys, tokens, tax file numbers, or anyone's personal details beyond a name and a role. Say "the account ending 123". Never push the bench. Never put a document copy where a pointer will do.
+Never write any of these into this folder, even if asked: bank BSB and account numbers, card numbers, passwords, API keys, tokens, tax file numbers, or anyone's personal details beyond a name and a role. Say "the account ending 123". Never push the bench or the outbox. Never put a document copy where a pointer will do.
 
 ## GitHub
 

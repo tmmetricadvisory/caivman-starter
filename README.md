@@ -11,6 +11,7 @@ This is a GitHub template. You do not clone it. You make your own private copy f
 | `CLAUDE.md` | The rulebook. Claude reads it first, every session. Plain English; change it by asking Claude. |
 | `context/` | Who you are, what you sell, how you write, what your work looks like, where your documents live, what never leaves. |
 | `bench/` | Where you drop raw material (your best work, your emails) for Claude to read once. Never goes to GitHub. |
+| `outbox/` | Where finished files land: the proposal, the report, the Word file a skill made. Never goes to GitHub. |
 | `clients/` | One folder per client with a one-page memory. |
 | `memory/` | One note per day, written when you say "wrap up". |
 | `.claude/skills/` | Your skills: the written method for each job you hand over. |

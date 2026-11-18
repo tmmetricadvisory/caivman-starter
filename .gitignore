@@ -2,6 +2,10 @@
 bench/*
 !bench/README.md
 
+# The outbox: finished files Claude made (a proposal, a report). Stays on this computer; move a file out when you send it.
+outbox/*
+!outbox/README.md
+
 # Secrets never go in a brain. Keep them in a password manager.
 .env
 .env.*

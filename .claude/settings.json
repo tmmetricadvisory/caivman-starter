@@ -13,5 +13,11 @@
         ]
       }
     ]
+  },
+  "permissions": {
+    "allow": [
+      "Write(.claude/skills/**)",
+      "Edit(.claude/skills/**)"
+    ]
   }
 }
