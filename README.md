@@ -2,7 +2,7 @@
 
 The starter folder for a caivman brain: a private place where Claude keeps what it knows about you, your business and your clients, so you never explain yourself twice.
 
-This is a GitHub template. You do not clone it. You make your own private copy from it, once, and that copy is your brain. The guide walks you through it in about two hours: [caivman guide](https://claude.ai/artifact/9xkQ2Gv8KfZkaQCYkPbn6y).
+This is a GitHub template. You do not clone it. You make your own private copy from it, once, and that copy is your brain. The guide walks you through it in about two hours: [caivman guide](https://tmmetricadvisory.github.io/caivman/).
 
 ## What is in here
 
